@@ -1,0 +1,92 @@
+:root{
+    --main-background: hsl(222, 22%, 12%);
+    --second-background: hsl(222, 22%, 7%);
+    --second-color: hsl(223, 22%, 17%);
+    --text-unfocus: rgba(255,255,255,.75);
+    --text-focus: white;
+    --tertiary-color: hsl(223, 22%, 7%);
+    background-color: var(--main-background);
+}
+
+.content-page, .form-control, body{
+    background-color: var(--main-background);
+}
+
+.card-box, .footer, .page-title-box, .panel-default>.panel-heading, .panel-body, .panel-footer{
+    background-color: var(--second-color);
+}
+
+.form-control:focus{
+    border-color: var(--main-background);
+    background-color: var(--tertiary-color);
+}
+
+.form-control{
+    color: var(--text-focus);
+    border-color: var(--second-background);
+}
+
+.text-dark, .page-title, .panel-title>a{
+    color: rgba(255,255,255,.80) !important;
+}
+
+.m-b-10>span>span{
+    text-shadow:none!important;
+}
+
+h1, h2, h3, h4, h5, h6, .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+    color: var(--text-focus);
+}
+
+b, .m-b-10>#text, .panel-vody, li, .m-b-10, .card-box{
+    color: var(--text-unfocus);
+}
+
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+    border-top-color: var(--main-background);
+}
+
+.table>tbody>tr>th, .table>tbody>tr>td, .table>thead>tr>th{
+    border-right-color: var(--main-background)!important;
+}
+
+.table>thead>tr>th{
+    border-bottom-color: var(--main-background);
+}
+.table-striped>tbody>tr:nth-of-type(odd){
+    background-color: var(--main-background)
+}
+
+.panel-footer{
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.circle-text{
+    color: var(--text-unfocus);
+}
+
+code, pre{
+    border-color: var(--main-background);
+    background-color: var(--tertiary-color);
+    color: white;
+}
+
+
+
+
+code{
+    color: #5d9cec;
+}
+
+
+
+.portlet .portlet-heading, .portlet-body{
+    border-radius:0!important;
+    background-color: var(--second-color)!important;
+}
+
+.sorting_asc, .sorting{
+    background-color: var(--second-color);
+}
