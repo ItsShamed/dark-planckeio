@@ -1,3 +1,11 @@
+/* ==UserStyle==
+@name         Dark Theme for Plancke.io
+@namespace    https://github.com/ItsShamed/dark-plackeio
+@version      1.0.0
+@license      unlicense
+@preprocessor default
+==/UserStyle== */
+
 :root{
     --main-background: hsl(222, 22%, 12%);
     --second-background: hsl(222, 22%, 7%);
